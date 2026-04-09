@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main() {
+    int a = 10, b = 20, c = 0;
+    if (a > 0 && b > 0) {
+        printf("AND: Both a and b are positive.\n");
+    }
+    if (a > 50 || b > 15) {
+        printf("OR: At least one condition is true.\n");
+    }
+    if (!c) {
+        printf("NOT: c was zero, but !c is now true.\n");
+    }
+}
