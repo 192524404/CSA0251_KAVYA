@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main() {
+    int a,b;
+    scanf("%d",&a);
+    if (a>0 && a<=12)
+        b=1;
+    else if (a>12 && a<=19)
+        b=2;
+    else if (a>19 && a<=35)
+        b=3;
+    else if (a>35 && a<=80)
+        b=4;
+    else if (a>80 && a<=150)
+        b=5;
+    switch(b)
+    {
+        case 1:
+            printf("child");
+            break;
+        case 2:
+            printf("teenager");
+            break;
+        case 3:
+            printf("adult");
+            break;
+        case 4:
+            printf("old age");
+            break;
+        case 5:
+            printf("senior citizen");
+            break;
+        default:
+            printf("not a human");
+            break;
+     }
+}
