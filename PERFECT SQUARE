@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+void main() {
+    int n=59, s;
+    s = sqrt(n);
+    if(s * s == n)
+        printf("Perfect Square");
+    else
+        printf("Not Perfect Square");
+}
